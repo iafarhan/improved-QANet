@@ -1,0 +1,12 @@
+name: opensea
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - pip
+  - pymongo=3.12.1
+  - dnspython[srv]
+  - time
+  - requests

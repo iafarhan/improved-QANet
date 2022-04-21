@@ -1,0 +1,40 @@
+[07.19.21 18:38:48] Args: {
+    "batch_size": 16,
+    "char_emb_file": "./data/char_emb.json",
+    "dev_eval_file": "./data/dev_eval.json",
+    "dev_record_file": "./data/dev.npz",
+    "drop_prob": 0.2,
+    "ema_decay": 0.999,
+    "eval_steps": 50000,
+    "gpu_ids": [
+        0
+    ],
+    "hidden_size": 128,
+    "l2_wd": 0,
+    "load_path": null,
+    "lr": 0.5,
+    "max_ans_len": 15,
+    "max_checkpoints": 5,
+    "max_grad_norm": 5.0,
+    "maximize_metric": true,
+    "metric_name": "F1",
+    "name": null,
+    "num_epochs": 30,
+    "num_visuals": 10,
+    "num_workers": 4,
+    "save_dir": "./save/train/None-79",
+    "seed": 224,
+    "test_eval_file": "./data/test_eval.json",
+    "test_record_file": "./data/test.npz",
+    "train_eval_file": "./data/train_eval.json",
+    "train_record_file": "./data/train.npz",
+    "use_squad_v2": true,
+    "word_emb_file": "./data/word_emb.json"
+}
+[07.19.21 18:38:48] Using random seed 224...
+[07.19.21 18:38:48] Loading embeddings...
+[07.19.21 18:38:52] Building model...
+[07.19.21 18:38:53] Saver will maximize F1...
+[07.19.21 18:38:53] Building dataset...
+[07.19.21 18:38:58] Training...
+[07.19.21 18:38:58] Starting epoch 1...
